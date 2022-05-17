@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이유진-포트폴리오</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="shoutcut icon" href="./images/fv.svg">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery-1.11.3.js"></script>
+     <!-- 제이쿼리의 animate의 제약사항을 해결해주는 TweenMax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <!-- =================================================================
+            header
+        ================================================================== -->
+        <header>
+            <div class="header_main">
+                <h1 class="logo fl">
+                    <a href="#">
+                        <span class="logoImg"></span>
+                        YUJIN<span class="pf">PORTFOLIO</span>
+                    </a>
+                </h1>
+                <ul class="nav fr">
+                    <li class="fl">[&nbsp;&nbsp; ABOUT &nbsp;&nbsp;]</li>
+                    <li class="fl">[&nbsp;&nbsp; PORTFOLIO &nbsp;&nbsp;]</li>
+                    <li class="fl">[&nbsp;&nbsp; OTHER DESIGN &nbsp;&nbsp;]</li>
+                </ul>
+            </div>
+        </header>
+        <!-- =================================================================
+            profile
+        ================================================================== -->
+        <section id="profile">
+            <h2 class="blind">profile</h2>
+            <div class="profile_main">
+                <div class="p_left fl">
+                    <!-- 사진 -->
+                    <div class="img"></div>
+                </div>
+                <div class="p_right fr">
+                    <dl>
+                        <dt>
+                            WEB DESIGN<br />
+                            <span>&amp; WEB DEVELOPER</span>
+                        </dt>
+                        <dd>
+                            안녕하세요? 웹퍼블리셔 이유진입니다. <br /><br />
+                            사용자로 하여금 편의성과 만족도가 높은 웹페이지를 제작하는 것이 저의 목표입니다.<br />
+                            부족한 부분은 배워나가며, <span>소통을 중시하는 마음가짐</span>으로 노력하겠습니다.<br />
+                            트렌드에 맞춰 쉬지 않고 노력하는 웹퍼블리셔가 되겠습니다.
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
+        <!-- =================================================================
+            skill
+        ================================================================== -->
+        <section id="skill">
+            <!-- 연락처,SNS,자격증,사용툴,스킬 -->
+            <div class="skill_main">
+                <h2>알아보기</h2>
+                <h3>ABOUT</h3>
+                <div class="box about fl">
+                    <i class="xi-user-plus xi-2x"></i>
+                    <dl>
+                        <dt>ABOUT</dt>
+                        <dd>이유진</dd>
+                        <dd>ISFP-T</dd>
+                        <dd>1996-08-06</dd>
+                        <dd>수원시 권선구 권선동</dd>
+                        <dd>수원대학교</dd>
+                        <dd>NCS 웹표준전문가양성과정</dd>
+                    </dl>
+                </div>
+                <!-- CONTACTS -->
+                <div class="box contacts fl">
+                    <i class="xi-comment xi-2x"></i>
+                    <dl>
+                        <dt>CONTACTS</dt>
+                        <dd>
+                            <i class="xi-call xi-2x"></i> 010-5231-2164
+                        </dd>
+                        <dd>
+                            <i class="xi-mail xi-2x"></i> dbslb@naver.com
+                        </dd>
+                        <dd>
+                            <i class="xi-mail xi-2x"></i> yuniknow@gmail.com
+                        </dd>
+                        <dd>
+                            <i class="xi-kakaotalk xi-2x"></i> yuniknow
+                        </dd>
+                    </dl>
+                </div>
+                <!-- Licenses -->
+                <div class="box licenses fl">
+                    <i class="xi-book xi-2x"></i>
+                    <dl>
+                        <dt>LICENSES</dt>
+                        <dd>웹디자인기능사</dd>
+                        <dd>GTQ 포토샵 1급</dd>
+                    </dl>
+                </div>
+                <!-- Tools -->
+                <div class="box tools fl">
+                    <i class="xi-desktop xi-2x"></i>
+                    <dl>
+                        <dt>TOOLS</dt>
+                        <dd>Adobe Photoshop</dd>
+                        <dd>Adobe Illustrator</dd>
+                        <dd>Adobe Indesign</dd>
+                        <dd>Adobe XD</dd>
+                        <dd>Zeplin</dd>
+                        <dd>Visual Studio Code</dd>
+                    </dl>
+                </div>
+                <!-- Skills -->
+                <div class="box skills fl">
+                    <i class="xi-code xi-2x"></i>
+                    <dl>
+                        <dt>SKILLS</dt>
+                        <dd>HTML5</dd>
+                        <dd>CSS3</dd>
+                        <dd>JavaScript</dd>
+                        <dd>jQuery</dd>
+                        <dd>React</dd>
+                        <dd>Presentation</dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
+        <!-- =================================================================
+            portfolio
+        ================================================================== -->
+        <section id="portfolio">
+            <h2>포트폴리오</h2>
+            <h3>PORTFOLIO</h3>
+            <div class="portfolio_main">
+                <!-- 한화케미칼 -->
+                <dl>
+                    <dt></dt>
+                    <dd>
+                        <h4>01.한화케미칼</h4>
+                        <h5>HANWHA<br />CEHMICAL</h5>
+                        <p>
+                            WEB CODING<br />
+                            제작 : 메인페이지<br /><br /><br />
+                            리뉴얼된 한화케미칼 메인페이지를 코딩하여<br />
+                            웹으로 구현하였습니다.
+                        </p>
+                        <p class="site_btn">
+                            <a href="https://yuniknow.github.io/hanwha/" target="_blank">WEBSITE</a>
+                        </p>
+                    </dd>
+                </dl>
+                <!-- h.point -->
+                <dl>
+                    <dt></dt>
+                    <dd>
+                        <h4>02.현대백화점그룹통합멤버십</h4>
+                        <h5>h.Point</h5>
+                        <p>
+                            WEB CODING<br />
+                            제작 : 메인페이지<br /><br /><br />
+                            h.Point 메인 페이지를 코딩하여 구현하였습니다.
+                        </p>
+                        <p class="site_btn">
+                            <a href="https://yuniknow.github.io/hpoint/" target="_blank">WEBSITE</a>
+                        </p>
+                    </dd>
+                </dl>
+                <!-- 라인 -->
+                <dl>
+                    <dt></dt>
+                    <dd>
+                        <h4>03.라인</h4>
+                        <h5>LINE<br />LIFE ON LINE</h5>
+                        <p>
+                            RESPONSIVE WEB<br />
+                            제작 : 반응형 웹 메인<br /><br /><br />
+                            라인 메인 페이지를 반응형으로 코딩하여 구현하였습니다.<br />
+                        </p>
+                        <p class="site_btn">
+                            <a href="https://yuniknow.github.io/line/" target="_blank">WEBSITE</a>
+                        </p>
+                    </dd>
+                </dl>
+                <!-- boxResponsive -->
+                <dl>
+                    <dt></dt>
+                    <dd>
+                        <h4>04.폿폴 반응형</h4>
+                        <h5>BOX<br />RESPONSIVE</h5>
+                        <p>
+                            WEB CODING<br />
+                            제작 : 메인페이지<br /><br /><br />
+                            isotope plug-in을 이용한 메인페이지를 코딩하여<br />
+                            웹으로 구현하였습니다.
+                        </p>
+                        <p class="site_btn">
+                            <a href="https://yuniknow.github.io/box-responsive/" target="_blank">WEBSITE</a>
+                        </p>
+                    </dd>
+                </dl>
+                <!-- 추가사이트1-의류시험연구원 -->
+                <dl>
+                    <dt></dt>
+                    <dd>
+                        <h4>05.한국의류시험연구원</h4>
+                        <h5>KATRI<br />HAPPY LIFE</h5>
+                        <p>
+                            WEB CODING<br />
+                            제작 : 메인, 회원가입, 공지사항<br /><br /><br />
+                            메인과 회원가입, 공지사항 페이지를 코딩하여<br />
+                            웹으로 구현하였습니다.
+                        </p>
+                        <p class="site_btn">
+                            <a href="#" target="_blank">WEBSITE</a>
+                        </p>
+                    </dd>
+                </dl>
+                <!-- 추가사이트2 -->
+                <dl>
+                    <dt></dt>
+                    <dd>
+                        <h4>06.호원</h4>
+                        <h5>HOWON<br />TELEMEDICINE</h5>
+                        <p>
+                            APP PROJECT<br />
+                            제작 : 앱 설계 및 디자인<br /><br /><br />
+                            코로나19 여파로,<br />
+                            원격진료 어플리케이션 호원을 설계 및 디자인하였습니다.
+                        </p>
+                        <p class="site_btn">
+                            <a href="https://yuniknow.github.io/down/LYJ-HOWON.pdf" target="_blank">VIEW</a>
+                        </p>
+                    </dd>
+                </dl>
+            </div>
+        </section>
+        <!-- =================================================================
+            etc
+        ================================================================== -->
+        <section id="etc">
+            <h2>기타디자인</h2>
+            <h3>OTHER DESIGN</h3>
+            <div class="etc_main">
+                <!-- 1.기타디자인 -->
+                <dl class="etc_1 fl">
+                    <dt>
+                        <p>
+                            <strong>자세히보기</strong>
+                            <i></i>
+                        </p>
+                    </dt>
+                    <dd>
+                        <span>ICONS &#124; 아이콘</span><br />
+                        아이콘 디자인
+                    </dd>
+                </dl>
+                <!-- 2.기타디자인 -->
+                <dl class="etc_2 fl">
+                    <dt>
+                        <p>
+                            <strong>자세히보기</strong>
+                            <i></i>
+                        </p>
+                    </dt>
+                    <dd>
+                        <span>Branding &#124; 브랜딩</span><br />
+                        브랜딩 디자인
+                    </dd>
+                </dl>
+                <!-- 3.기타디자인 -->
+                <dl class="etc_3 fl">
+                    <dt>
+                        <p>
+                            <strong>자세히보기</strong>
+                            <i></i>
+                        </p>
+                    </dt>
+                    <dd>
+                        <span>Event Banner &#124; 이벤트 배너</span><br />
+                        이벤트 디자인
+                    </dd>
+                </dl>
+                <!-- 4.기타디자인 -->
+                <dl class="etc_4 fl">
+                    <dt>
+                        <p>
+                            <strong>자세히보기</strong>
+                            <i></i>
+                        </p>
+                    </dt>
+                    <dd>
+                        <span>NFT &#124; 엔에프티</span><br />
+                        OPENSEA NFT
+                    </dd>
+                </dl>
+                <!-- 5.기타디자인 -->
+                <dl class="etc_5 fl">
+                    <dt>
+                        <p>
+                            <strong>자세히보기</strong>
+                            <i></i>
+                        </p>
+                    </dt>
+                    <dd>
+                        <span>FANART &#124; 팬아트</span><br />
+                        캐릭터 팬아트
+                    </dd>
+                </dl>
+            </div>
+        </section>
+        <!-- =================================================================
+            footer
+        ================================================================== -->
+        <footer>
+            <div class="footer_main">
+                <img src="./images/btn_top.png" alt="클릭시 최상단으로 가기 버튼" class="btn_top">
+                <ul class="sns">
+                    <li class="fl"><a href="tel:010-5231-2164"></a><i class="xi-mobile"></i></li>
+                    <li class="fl"><a href="mailto:dbslb@naver.com"></a><i class="xi-naver"></i></li>
+                    <li class="fl"><a href="mailto:yuniknow@gmail.com"></a><i class="xi-gmail"></i></li>
+                </ul>
+                <div class="copy">
+                    <p>Copyright &copy; 2022 YUJIN All right reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- =================================================================
+            popup   -   box-slide
+        ================================================================== -->
+        <div id="popup">
+            <div class="popup_main">
+                <div class="bg">
+                    <p class="close">팝업창을 닫으시려면 아무 곳이나 클릭하세요.</p>
+                </div>
+                <!-- popup1 -->
+                <div id="popup1" class="popup">
+                    <button class="prev">&#60;</button>
+                    <ul class="popList">
+                        <li class="popImg fl"><img src="./images/1-1.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/1-2.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/1-3.png" alt=""></li>
+                    </ul>
+                    <button class="next">&#62;</button>
+                </div>
+                <!-- popup2 -->
+                <div id="popup2" class="popup">
+                    <button class="prev">&#60;</button>
+                    <ul class="popList">
+                        <li class="popImg fl"><img src="./images/2-1.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/2-2.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/2-3.png" alt=""></li>
+                    </ul>
+                    <button class="next">&#62;</button>
+                </div>
+                <!-- popup3 -->
+                <div id="popup3" class="popup">
+                    <button class="prev">&#60;</button>
+                    <ul class="popList">
+                        <li class="popImg fl"><img src="./images/3-1.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/3-2.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/3-3.png" alt=""></li>
+                    </ul>
+                    <button class="next">&#62;</button>
+                </div>
+                <!-- popup4 -->
+                <div id="popup4" class="popup">
+                    <button class="prev">&#60;</button>
+                    <ul class="popList">
+                        <li class="popImg fl"><img src="./images/4-1.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/4-2.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/4-3.png" alt=""></li>
+                    </ul>
+                    <button class="next">&#62;</button>
+                </div>
+                <!-- popup5 -->
+                <div id="popup5" class="popup">
+                    <button class="prev">&#60;</button>
+                    <ul class="popList">
+                        <li class="popImg fl"><img src="./images/5-1.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/5-2.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/5-3.png" alt=""></li>
+                    </ul>
+                    <button class="next">&#62;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
