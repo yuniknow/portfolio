@@ -264,7 +264,7 @@ $(function(){
         animate("prev");
     }
     function next(){
-        current++;  // 1씩 감소
+        current++;  // 1씩 증가
         if (current > max - 1) current - 0;
         animate("next");
     }
@@ -273,7 +273,7 @@ $(function(){
     $("#popup>.popup_main>.popup>button.prev").on("click",function(){
         container = $(this).parent(".popup").find(".popList");
         max = container.children().length;  // 해당변수 반환(자식의 갯수)
-        container.addClass("margin-left","800px");
+        container.addClass("margin-left","-800px");
         container.prepend(container.children()[max - 1]);
         prev();
     });
@@ -283,37 +283,8 @@ $(function(){
         container = $(this).parent(".popup").find(".popList");
         max = container.children().length;  // 해당변수 반환(자식의 갯수)
         container.addClass("margin-left","-800px");
-        container.append(container.children()[0]);
+        container.append(container.children()[max - 1]);
         next();
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 }); //end
